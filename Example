@@ -1,0 +1,26 @@
+Basic syntax
+
+<div class='tabs-wrapper' data-tabsbuttons='.tabs' data-tabscontent='.tabs-content' data-tabswrapper='.tabs-wrapper'>
+  <div class='tabs-content'>
+    <div id='section1'>
+        Sample Content
+    </div>
+    <div id='section2'>
+        Sample Content
+    </div>
+  </div>
+  <div class='tabs'>
+    <ul>
+      <li>
+        <a href='#section1'>
+          <img src="photo.jpg" />
+        </a>
+      </li>
+      <li>
+        <a href='#section2'>
+          <img src="photo.jpg" />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
