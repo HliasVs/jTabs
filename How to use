@@ -4,20 +4,20 @@ Quite simple, just attach the element you wish with the plugin!
 For example, $('.tabs-wrapper').jTabs();
 
 Default options: 
-- Class "active" for the active li tab,
-- Class "active-block" for the active container,
+- Class "active" for the active li tab
+- Class "active-block" for the active container
 - Anchor is the default element that contains the attribute that links to the container you wish to show
 - Href is the attribute that contains the name of the container
 - Click is the default event
 
 Default options are very easy to alter.
 $('.tabs-wrapper').jTabs({
-  contentClass: "active-container",     //Alters the class of active container from "active-block" to "active-container"
-  buttonClass: "active-button",         //Alters the class of active button from "active" to "active-button"
-  mouseEvent: "mouseover"               //Alters the event from "click" to "mouseover"
+  contentClass: "active-container",     // Alters the class of active container from "active-block" to "active-container"
+  buttonClass: "active-button",         // Alters the class of active button from "active" to "active-button"
+  mouseEvent: "mouseover"               // Alters the event from "click" to "mouseover"
 });  
 
 You can also pass no class names.
 $('.tabs-wrapper').jTabs({
-  contentClass: ""                     //Alters the class of active container from "active-block" to no-class
+  contentClass: ""                     // Alters the class of active container from "active-block" to no-class
 });    
