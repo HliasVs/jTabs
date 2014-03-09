@@ -1,26 +1,35 @@
-Basic syntax
-
-<div class='tabs-wrapper' data-tabsbuttons='.tabs' data-tabscontent='.tabs-content' data-tabswrapper='.tabs-wrapper'>
-  <div class='tabs-content'>
-    <div id='section1'>
-        Sample Content
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.jTabs.min.js"></script>
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <title>Title</title>
+  </head>
+  
+  <body>
+    <div class='tabs-wrapper' data-tabswrapper='.tabs-wrapper' data-tabscontent='.tabs-content' data-tabsbuttons='.tabs'>
+      <div class='tabs'>
+        <ul>
+          <li>
+            <a href='#section1'>Button text</a>
+          </li>
+          <li>
+            <a href='#section2'>Button text</a>
+          </li>
+        </ul>
+      </div>
+      <div class='tabs-content'>
+        <div id='section1'>
+            <h2>Sample First Content</h2>
+            <p>First paragraph</p>
+        </div>
+        <div id='section2'>
+            <h2>Sample Second Content</h2>
+            <p>Second paragraph</p>
+        </div>
+      </div>
     </div>
-    <div id='section2'>
-        Sample Content
-    </div>
-  </div>
-  <div class='tabs'>
-    <ul>
-      <li>
-        <a href='#section1'>
-          <img src="photo.jpg" />
-        </a>
-      </li>
-      <li>
-        <a href='#section2'>
-          <img src="photo.jpg" />
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+  </body>
+</html>
