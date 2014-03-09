@@ -1,9 +1,7 @@
-How to use 
-====
+HOW TO USE 
 
 Quite simple, just attach the element you wish with the plugin! 
 For example, $('.tabs-wrapper').jTabs();
-
 
 Default options: 
 - Class "active" for the active li tab,
@@ -12,14 +10,12 @@ Default options:
 - Href is the attribute that contains the name of the container
 - Click is the default event
 
-
 Default options are very easy to alter.
 $('.tabs-wrapper').jTabs({
   contentClass: "active-container",     //Alters the class of active container from "active-block" to "active-container"
   buttonClass: "active-button",         //Alters the class of active button from "active" to "active-button"
   mouseEvent: "mouseover"               //Alters the event from "click" to "mouseover"
 });  
-
 
 You can also pass no class names.
 $('.tabs-wrapper').jTabs({
