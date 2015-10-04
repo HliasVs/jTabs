@@ -42,3 +42,7 @@
   box-sizing: border-box;
   border: solid 1px #bbb;
 }
+
+.tabs-content > * { display: none; }
+
+.tabs-content > *:first-child { display: block; }

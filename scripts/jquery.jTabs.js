@@ -49,7 +49,7 @@
       });
 
       if(settings.followHash) {
-        $(''+settings.element+'['+settings.attribute+'='+location.hash+']').trigger('click');
+        $(settings.element+'['+settings.attribute+'='+location.hash+']').trigger(settings.mouseEvent);
       }
     });
   }
